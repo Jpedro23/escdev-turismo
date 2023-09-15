@@ -9,113 +9,77 @@
 </head>
 
 <header>
-    <table width=90% align="center">
-        <tr>
-            <td align="start" colspan="2" width=60%>
-                <img src="./assets/contato.png" alt="Logo-container" width=100%>
-            </td>
-            <td width=50% align="end">
-                <strong>
-                    <font face="Arial">
-                        <a href="../index.html">HOME</a> | 
-                        <a href="../quemsomos/quemsomos.html">QUEM SOMO?</a> | 
-                        <a href="./contato.html">CONTATO</a></font>
-                </strong>
-            </td>
-        </tr>
-    </table>
+    <img src="../assets/logo.png" alt="Logo-container"=>
+    <nav>
+        <ul>
+            <li> <a href="../index.html">HOME</a> |</li>
+            <li> <a href="../quemsomos/quemsomos.html">QUEM SOMOS?</a> |</li>
+            <li> <a href="./contato.html">CONTATO</a></li>
+        </ul>
+    </nav>
 </header>
 
 <body>
     <main>
-        <div class="container">
-            <div class="content">
-                <div class="table-informação">
-                    <table width="90%" align="center">
-                        <tr>
-                            <td>
-                                <h1><strong>Email: jmviagem@gmail.com.br</strong></h1>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p align="justify">
-                                    <font face="Arial">
-                                        <strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore id,
-                                            temporibus
-                                            pariatur sunt maiores atque porro inventore similique praesentium veniam
-                                            fugiat
-                                            vitae cumque officia exercitationem eum mollitia officiis quidem reiciendis
-                                            repellat
-                                            error quas aut. Repellendus exercitationem ducimus eaque consequatur alias
-                                            voluptate, iste praesentium sequi repellat delectus, ab aperiam officiis
-                                            provident
-                                            consequuntur debitis dicta doloremque tempora quod necessitatibus? Iusto nam
-                                            laudantium quidem non nulla expedita odio ipsa beatae consequuntur aut quasi
-                                            vitae,
-                                            sequi at, cumque amet? Nulla aperiam eos esse maxime quas tenetur adipisci
-                                            ipsum
-                                            impedit porro ipsa vitae voluptas architecto libero, quisquam quod
-                                            doloremque
-                                            laborum enim! Quos in incidunt commodi.</strong>
-                                    </font>
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td align="center">
-                                <font face="Arial">
-                                    <h4>Todos os direitors reservados</h4>
-                                </font>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="table-assunto">
-                    <h1 class="title-assunto"><strong>Entre em contato conosco</strong></h1>
-                    <table width=50% align="center">
-                        <tr class="tr">
-                            <td>
-                                <p><strong>Seu nome: </strong></p>
-                            </td>
-                            <td> <input type="text" name="Nome" placeholder="Digite aqui o seu nome...">*</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p><strong>Seu email: </strong> </p>
-                            </td>
-                            <td> <input type="email" name="Email" placeholder="Digite aqui o seu Email...">*</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p><strong> Seu numero: </strong></p>
-                            </td>
-                            <td> <input type="number" name="Numero" placeholder="Digite aqui o seu Numero...">*</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p> <strong>Assunto:</strong></p>
-                            </td>
-                            <td> <input type="text" name="nome"
-                                    placeholder="Digite aqui o assunto que deseja discutir conosco..."></td>
-                        </tr>
-                        <tr>
-                            <td align="center" colspan="2">
-                                <p> <strong>Mensagem: </strong></p>
-                            </td>
-                        </tr>
-                        <tr align="center">
-                            <td colspan="2">
-                                <textarea name="msg" id="msg" cols=40% rows="10"></textarea>
-                            </td>
-                        </tr>
-                    </table>
-                    <div class="link-button">
+        <section class="contact" aria-label="Seção contato">
+            <img src="../assets/contato.png" alt="contato.img" class="banner">
+            <h1><strong>Email: jmviagem@gmail.com.br</strong></h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore id,
+                temporibus
+                pariatur sunt maiores atque porro inventore similique praesentium veniam
+                fugiat
+                vitae cumque officia exercitationem eum mollitia officiis quidem reiciendis
+                repellat
+                error quas aut. Repellendus exercitationem ducimus eaque consequatur alias
+                voluptate, iste praesentium sequi repellat delectus, ab aperiam officiis
+                provident
+                consequuntur debitis dicta doloremque tempora quod necessitatibus? Iusto nam
+                laudantium quidem non nulla expedita odio ipsa beatae consequuntur aut quasi
+                vitae,
+                sequi at, cumque amet? Nulla aperiam eos esse maxime quas tenetur adipisci
+                ipsum
+                impedit porro ipsa vitae voluptas architecto libero, quisquam quod
+                doloremque
+                laborum enim! Quos in incidunt commodi.
+            </p>
+            <div class="container">
+                <form>
+                    <h1 class="title-subject"><strong>Entre em contato conosco</strong></h1>
+                    <div class="content-forms">
+
+                        <div class="input">
+                            <p><strong>Seu nome: </strong></p>
+                            <input type="text" name="Nome" placeholder="Digite aqui o seu nome...">
+                        </div>
+
+                        <div class="input">
+                            <p><strong>Seu email: </strong> </p>
+                            <input type="email" name="Email" placeholder="Digite aqui o seu Email...">
+                        </div>
+
+                        <div class="input">
+                            <p><strong> Seu numero: </strong></p>
+                            <input type="number" name="Numero" placeholder="Digite aqui o seu Numero...">
+                        </div>
+
+                        <div class="input">
+                            <p> <strong>Assunto:</strong></p>
+                            <input type="text" name="nome"
+                                placeholder="Digite aqui o assunto que deseja discutir conosco...">
+                        </div>
+
+                        <div class="input">
+                            <p> <strong>Mensagem: </strong></p>
+                            <textarea name="msg" id="msg" rows="4" placeholder="Digite sua mensagem"></textarea>
+                        </div>
                         <a href="">Enviar</a>
                     </div>
+                </form>
+                <div class="container-img">
+                    <img src="../assets/pngwing.com (2).png" alt="contact-logo" title="logo-contact">
                 </div>
             </div>
-        </div>
     </main>
 </body>
 
