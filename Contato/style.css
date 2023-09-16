@@ -35,6 +35,13 @@ nav ul {
 }
 
 
+.container-img img {
+    width: 100%;
+    border: .1rem black solid;
+    border-radius: 1rem;
+
+}
+
 .content-forms {
     display: flex;
     flex-direction: column;
@@ -84,10 +91,6 @@ textarea {
     max-height: 10rem;
 }
 
-.container-img img {
-    width: 100%;
-
-}
 
 
 @media (max-width:900px) {
