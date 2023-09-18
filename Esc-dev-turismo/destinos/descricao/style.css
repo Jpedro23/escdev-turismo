@@ -1,0 +1,105 @@
+/* ----------------------- reset ----------------------------- */
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    text-decoration: none;
+}
+
+/* ----------------------- Header ----------------------------- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+/* ------------------------ body -------------------------------- */
+
+
+
+/* ----------------------- container ----------------------------- */
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .1rem solid #ffffff;
+    flex-direction: column;
+}
+
+/* ---------------------------- cards ------------------------------ */
+.cars-container {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.cars-container p,
+h3 {
+    text-align: center;
+}
+
+.title-card {
+    font-size: 1.5rem;
+}
+
+
+
+.description-card {
+    width: 100%;
+}
+
+/* ---------------------------- img card ------------------------------ */
+.card-01 {
+    width: 25%;
+    border: .1rem #000000 solid;
+    margin: .5rem;
+    border-radius: .5rem;
+    background-color: #f5b938;
+}
+
+.card-02 {
+    width: 25%;
+    border: .1rem #000000 solid;
+    margin: .5rem;
+    background-color: #f5b938;
+}
+
+.img-card img {
+    width: 100%;
+    height: 300px;
+    border: .1rem #fff solid;
+}
+
+/* ---------------------------- links ------------------------------ */
+
+.link-nav a {
+    padding: 1rem;
+    border: .1rem #000000 solid;
+    padding: .5rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    background-color: #fcfcfc;
+    color: #121212;
+}
+
+.link-nav a:hover{
+    background-color: #999999;
+}
+
+
+.link-nav {
+    display: flex;
+    justify-content: center;
+}

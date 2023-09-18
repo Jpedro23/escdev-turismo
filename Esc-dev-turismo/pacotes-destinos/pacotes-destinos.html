@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacotes e destinos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+
+<header>
+    <img src="../assets/logo jm completo.png" alt="contato.img" class="banner">
+</header>
+
+<body>
+    <main>
+        <div class="container">
+            <!-- Titulo -->
+            <br>
+            <h1> Qual quer ligar, qual quer semana vem com a jm turismo, vem.</h1>
+            <br>
+            <form>
+                <div class="content-forms">
+                    <!-- Aqui  estao os campos para preenchimento -->
+                    <h1 class="title-subject"><strong>Para onde você quer ir?</strong></h1>
+                    <div class="input-preenchimento">
+
+                        <p><strong>Origem</strong></p>
+                        <input type="text" name="Origem" placeholder="Digite aqui o seu nome">
+                    </div>
+
+
+                    <div class="input-preenchimento">
+                        <p><strong>Destino</strong> </p>
+                        <input type="text" name="Destino" placeholder="Digite aqui o seu Email">
+                    </div>
+
+
+                    <div class="input-preenchimento">
+                        <label for="">Data partida</label>
+                        <input id="date" type="date" />
+                    </div>
+
+
+                    <div class="input-preenchimento">
+                        <label for="">Data retorno</label>
+                        <input id="date" type="date" />
+                    </div>
+
+
+                    <div class="input-preenchimento">
+                        <label> Nº adultos</label>
+                        <input type="number" name="quantity" min="1" max="5" placeholder="Digite aqui o seu numero">
+                    </div>
+
+
+                    <div class="input-preenchimento">
+                        <label> Nº criança</label>
+                        <input type="number" name="quantity" min="1" max="5" placeholder="Digite aqui o seu numero">
+                    </div>
+
+                    <div>
+                        <p>Nota</p>
+                        <textarea name="msg" id="msg" rows="4"
+                            placeholder="Deixa alguma nota aqui caso seja necessario..."></textarea>
+                    </div>
+                    <div class="link-nav">
+                        <nav>
+                            <a href="../destinos/destinos.html"
+                                onclick="alert('Seus dados foram salvos com sucesso!')">Seguinte</a>
+                        </nav>
+                    </div>
+                </div>
+                <!-- Aqui esta a imagem da seunda logo -->
+                <div>
+                    <img src="../assets/logo-jm turismo.png" alt="avião no céu">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
